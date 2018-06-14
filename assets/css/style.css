@@ -1,0 +1,128 @@
+body {
+	background: url('../images/background2.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+	-o-background-size: cover;	
+	font-family: 'Pathway Gothic One', sans-serif;
+	background-color: #f0dd48;
+}
+
+.jumbotron {
+	
+    padding: 0.5em 0.6em;
+    margin: 1.0em 0.0em 1.0em 0.0em;
+	opacity: 1;
+	background-color:transparent;
+}
+
+.jumbotron h1 {
+	font-size: 4em;
+    color: #feda4a;
+}
+
+.jumbotron h2 {
+	font-size: 2em;
+    color:#feda4a;
+}
+
+.character-image {
+	display: inline-block;
+  	height: 270px;
+	padding: 0px 20px 0px 20px;
+	margin: 0px 2px 0px 2px;
+	background-color: white;
+	border: solid;
+	border-color:black;
+	background-color:#feda4a;
+	border-radius: 200px;
+	
+}
+
+a:link, a:visited{
+	color:#feda4a;
+	text-decoration: none;
+}
+
+
+
+.character-image p {
+	font-size: 20px;
+	
+	
+	text-align: center;
+	margin: 4px 4px
+}
+
+
+
+
+
+}
+
+#chosen-character {
+	height: 190px;
+}
+
+#chosen-character h2 {
+	font-size: 2em;
+    color: #feda4a;
+}
+
+.chosen-character {
+	border-color:white;
+	background-color:#feda4a;
+}
+
+#enemies-available h2 {
+	font-size: 24px;
+	color: #feda4a;
+	opacity:0.;
+}
+
+.enemy-character {
+	border-color: #48f0dd;
+	background-color:#5432ec;
+	margin: 0px 2px 0px 2px;
+}
+
+#fight-section h2 {
+	font-size: 24px;
+	color: #feda4a;
+	text-decoration: underline;
+	opacity:0.7;
+}
+
+#defender-section {
+	height: 210px;
+	
+}
+
+#defender-section h2 {
+	font-size: 24px;
+	color: #feda4a;
+	text-decoration: underline;
+	opacity:0.7;
+}
+
+.defender-character {
+	border-color:white;
+	background-color: red;
+	
+}
+
+#game-message {
+	font-size: 1.5em;
+	font-weight: bold;
+    color:#feda4a;
+}
+
+#attack, #restart{
+	font-size: 20px;
+	color:#feda4a;
+	background: none;
+	background-color:#000000;
+	opacity:0.7;
+}
+
+

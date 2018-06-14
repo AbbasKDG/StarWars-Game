@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Star Wars An RPG Game</title>
+
+  
+  <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+ 
+  <div class="container">
+
+    
+    <div class="jumbotron">
+      
+        <span title="Click for Star Wars Crawl!!!"><h1 class="text-center"><a href="crawl.html" target="_blank"><strong>Star Wars</strong></a></h1></span>
+      <h1 class="text-center"><p>An RPG Game</p></h1>
+
+      <h2 class="text-center">Choose Your Character</h2>
+
+    </div> 
+    
+    <div class="row">
+
+      <!--Characters-->
+      <div class="text-center col-lg-12" id="characters-available">
+        <span class="character-image available-character" id="empire-char">
+          <p><strong>EMPIRE</strong></p>
+          <img src="./assets/images/darthicon.png" alt="Empire image" id="empireimg" style="width: 200px">
+          <p class="health">120</p>
+        </span>
+
+        <span class="character-image available-character" id="resistance-char"> 
+          <p><strong>RESISTANCE</strong></p>
+          <img src="./assets/images/Falconicon.ico" alt="Resistance image" id="resistanceimg" style="width: 200px">
+          <p class="health">100</p>
+        </span>
+
+       
+
+        <span class="character-image available-character" id="clones-char">
+          <p><strong>CLONES</strong></p>
+          <img src="./assets/images/Troopericon.png" alt="Clone image" id="clonesimg" style="width: 200px">
+          <p class="health">180</p>
+        </span>
+      </div> 
+      <!--Chosen player-->
+      <div class="text-center col-lg-12" id="chosen-character">
+        <h2>Player</h2>
+      </div> 
+      <!--Chosen enemy-->
+
+      <div class="text-center col-lg-12" id="enemies-available">
+        <h2>Pick Enemies</h2>
+      </div> 
+      
+      <!--Fight Section-->
+
+      <div class="text-center col-lg-12" id="fight-section">
+        <h2>Fight Section</h2>
+        <button id="attack">Attack</button>
+      </div> 
+      
+      <div class="text-center col-lg-12" id="message-section">
+        <div id="game-message"></div>
+        <button id="restart">Restart</button>
+      </div> 
+      
+      
+
+      <div class="text-center col-lg-12" id="defender-section">
+        <h2>Defender</h2>
+      </div> 
+
+      
+
+    </div> 
+
+  </div> 
+
+  <script type="text/javascript" src="./assets/javascript/game.js"></script>
+  
+
+
+
+
+</body>
+</html>
